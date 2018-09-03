@@ -15,6 +15,7 @@
     <modules>
         <module>springcloud-config-server</module>
         <module>springcloud-config-client</module>
+        <module>pattern</module>
     </modules>
 
     <parent>
