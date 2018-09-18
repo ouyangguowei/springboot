@@ -1,4 +1,4 @@
-package com.oygw.config.server;
+package com.ouyoung.config.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
