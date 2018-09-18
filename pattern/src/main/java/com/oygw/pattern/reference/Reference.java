@@ -1,8 +1,7 @@
 package com.oygw.pattern.reference;
 
-import org.apache.tomcat.jni.User;
-
-import java.io.*;
+import java.io.IOException;
+import java.io.Serializable;
 
 /**
  * @Author: ouyoung
@@ -27,13 +26,6 @@ public class Reference {
         System.out.println( dif & 15) ;
 
 
-        User user = new User();
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        ObjectOutputStream oos = new ObjectOutputStream(baos);
-        oos.writeObject(user);
-        ByteArrayInputStream bais = new ByteArrayInputStream(baos.toByteArray());
-        ObjectInputStream ois = new ObjectInputStream(bais);
-        User newUser= (User)ois.readObject();
 
     }
 }
