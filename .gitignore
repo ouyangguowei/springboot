@@ -1,3 +1,7 @@
 .idea/
-springcloud-config-server/target/
 pattern/target/
+config-client/target/
+config-server/target/
+api/target/
+web/target/
+mybatis/target/
