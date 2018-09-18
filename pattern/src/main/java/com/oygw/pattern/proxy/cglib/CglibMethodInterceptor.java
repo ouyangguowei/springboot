@@ -20,7 +20,7 @@ public class CglibMethodInterceptor implements MethodInterceptor {
     @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         System.out.println("---CglibMethodInterceptor intercept before ---------");
-        Object ret = method.invoke(this.target,objects);
+        Object ret = methodProxy.invokeSuper(this.target,objects);
         System.out.println("---CglibMethodInterceptor intercept after ---------");
         return ret;
     }

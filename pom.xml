@@ -5,17 +5,20 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.oygw</groupId>
-    <artifactId>springcloud.project</artifactId>
+    <artifactId>springboot</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <name>springcloud.project</name>
+    <name>springboot</name>
     <url>http://maven.apache.org</url>
 
     <modules>
-        <module>springcloud-config-server</module>
-        <module>springcloud-config-client</module>
+        <module>config-server</module>
+        <module>config-client</module>
         <module>pattern</module>
+        <module>web</module>
+        <module>api</module>
+        <module>mybatis</module>
     </modules>
 
     <parent>

@@ -1,4 +1,4 @@
-package com.oygw.springcloud.config.server;
+package com.oygw.config.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
